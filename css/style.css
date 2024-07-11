@@ -123,24 +123,49 @@ h2{
 
 /* Main */
 
+/* section plan */
+
 .facture :last-child{
     margin-left: 30px;
 }
 
-/* section plan */
-
 .row{
     margin-top: 80px;
-    display: flex;
     gap: 30px;
 }
 
 .col{
     flex-basis: calc(100% / 3 - 60px / 3);
 
-    border: 1px dashed black;
+    border: 1px solid lightgrey;
     min-height: 100px;
 }
 
+.row-down{
+    height: 150px;
+    width: 100%;
+    margin-top: 50px;
+    border: 1px solid lightgrey;
+}
+
+.row-down div{
+    border: 1px solid lightgrey;
+}
 
 
+.top-col{
+    height: 40px;
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+
+.team{
+    height: 20%;
+    text-align: center;
+}
+
+.team-content{
+    height: 80%;
+}
+
+/* Section partner */
