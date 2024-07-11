@@ -21,16 +21,28 @@ a{
     color: black;
 }
 
+p{
+    font-size: 15px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 60px;
+}
 /* Utils */
 
 .big-container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .small-container{
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
+}
+
+.flex{
+    display: flex;
 }
 
 .btn{
@@ -49,7 +61,6 @@ a{
     display: flex;
     align-items: center;
     padding: 0 20px;
-    position: fixed;
     width: 100%;
 }
 
@@ -64,6 +75,45 @@ a{
 
 .navbar-right ul{
     justify-content: flex-end;
+}
+
+/* Jumbotron */
+
+.bg{
+    background-color: lightskyblue;
+    height: 550px;
+}
+
+.jumbotron{
+    padding-top: 50px;
+    height: 100%;
+}
+
+.title{
+    height: 150px;
+    background-color: yellow;
+}
+
+.content{
+    min-height: 350px;
+}
+
+.txt-col{
+    padding-top: 50px;
+    flex-basis: 40%;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.img-col{
+    padding-top: 50px;
+    flex-basis: 60%;
+    background-color: purple;
+    border: 1px dashed black;
+}
+
+.txt-col  p{
+    margin: 30px 0;
 }
 
 
