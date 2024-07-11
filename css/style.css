@@ -26,9 +26,15 @@ p{
 }
 
 h1{
-    font-weight: 700;
-    font-size: 60px;
+    font-weight: 800;
+    font-size: 65px;
 }
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
 /* Utils */
 
 .big-container{
@@ -57,7 +63,6 @@ h1{
 
 .navbar{
     height: 80px;
-    border: 1px dashed black;
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -91,7 +96,6 @@ h1{
 
 .title{
     height: 150px;
-    background-color: yellow;
 }
 
 .content{
@@ -101,15 +105,11 @@ h1{
 .txt-col{
     padding-top: 50px;
     flex-basis: 40%;
-    background-color: pink;
-    border: 1px dashed black;
 }
 
 .img-col{
     padding-top: 50px;
     flex-basis: 60%;
-    background-color: purple;
-    border: 1px dashed black;
 }
 
 .txt-col  p{
