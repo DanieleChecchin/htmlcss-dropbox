@@ -38,7 +38,9 @@ img{
 h2{
     margin-top: 80px;
     margin-bottom: 50px;
+    font-size: 35px;
 }
+
 
 /* Utils */
 
@@ -187,4 +189,46 @@ h2{
 
 .business .row{
     flex-wrap: wrap;
+}
+
+.underline{
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Section Aside */
+
+.square{
+    flex-basis: calc(100% / 2);
+    min-height: 100px;
+
+    border: 1px dashed black;
+}
+
+.aside .col{
+    flex-wrap: wrap;
+}
+
+.aside .row{
+    gap: 0;
+}
+
+/*
+
+.free-try{
+    height: 200px;
+}
+
+.prove{
+    flex-basis: calc(100% / 2);
+    min-height: 100px;
+    background-color: lightskyblue;
+    
+
+    border: 1px solid black;
+}
+
+.try{
+    padding: 5px 10px;
+    background-color: white;
 }
