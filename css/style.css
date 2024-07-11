@@ -35,6 +35,11 @@ img{
     max-width: 100%;
 }
 
+h2{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
 /* Utils */
 
 .big-container{
@@ -114,6 +119,27 @@ img{
 
 .txt-col  p{
     margin: 30px 0;
+}
+
+/* Main */
+
+.facture :last-child{
+    margin-left: 30px;
+}
+
+/* section plan */
+
+.row{
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+}
+
+.col{
+    flex-basis: calc(100% / 3 - 60px / 3);
+
+    border: 1px dashed black;
+    min-height: 100px;
 }
 
 
