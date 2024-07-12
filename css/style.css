@@ -22,7 +22,7 @@ a{
 }
 
 p{
-    font-size: 15px;
+    font-size: 14px;
 }
 
 h1{
@@ -36,11 +36,15 @@ img{
 }
 
 h2{
-    margin-top: 80px;
+    margin-top: 150px;
     margin-bottom: 50px;
     font-size: 35px;
 }
 
+h4{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
 
 /* Utils */
 
@@ -64,6 +68,9 @@ h2{
     padding: 5px 10px;
 }
 
+.color-trasp{
+    color: rgba(0, 0, 0, 0.5);
+}
 /* Header */
 
 /* Navbar */
@@ -123,7 +130,7 @@ h2{
 }
 
 .txt-col  p{
-    margin: 20px 0;
+    margin: 31px 0;
 }
 
 /* Main */
@@ -155,13 +162,33 @@ h2{
 }
 
 .top-col{
-    height: 40px;
+    padding: 10px;
     border: 1px solid lightgrey;
     text-align: center;
 }
 
+.down-col{
+    padding: 30px;
+}
+
+.down-col li{
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.down-col p{
+    margin: 20px 0;
+}
+
+.border-down{
+    display: inline-block;
+    padding: 25px 0;
+    border-bottom: 1px solid black;
+}
+
+
 .team{
-    height: 20%;
+    padding: 10px;
     text-align: center;
     border: 1px solid lightgrey;
 }
@@ -242,7 +269,7 @@ h2{
     border-bottom: 1px solid black;
 }
 
-i{
+.question-3 i{
     padding-left: 220px;
 }
 
