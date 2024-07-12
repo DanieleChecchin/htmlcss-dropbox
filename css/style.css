@@ -27,7 +27,8 @@ p{
 
 h1{
     font-weight: 800;
-    font-size: 65px;
+    font-size: 60px;
+    padding-top: 30px
 }
 
 img{
@@ -130,7 +131,11 @@ h4{
 }
 
 .txt-col  p{
-    margin: 31px 0;
+    margin-bottom: 45px;
+}
+
+.annulla{
+    margin-top: 30px;
 }
 
 /* Main */
@@ -249,7 +254,7 @@ h4{
 }
 
 .partner{
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .txt-partner{
@@ -274,6 +279,10 @@ h4{
 
 .business .row{
     flex-wrap: wrap;
+}
+
+.business .col{
+    border: 0;
 }
 
 .underline{
