@@ -294,9 +294,13 @@ h4{
 
 .square{
     flex-basis: calc(100% / 2);
-    min-height: 100px;
+    min-height: 248px;
 
     border: 1px dashed black;
+}
+.aside img{
+    width: 50%;
+    height: 50%;
 }
 
 .aside .col{
@@ -346,12 +350,20 @@ footer{
     margin-top: 100px;
     background-color: black;
     height: 550px;
+    color: white;
 }
 
 .col-footer{
     flex-basis: calc(100% / 5);
     margin-top: 80px;
+}
 
-    border: 1px dashed white;
-    min-height: 100px;
+.col-footer li{
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.col-footer h5{
+    font-size: 20px;
+    padding-bottom: 20px;
 }
