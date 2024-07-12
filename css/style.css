@@ -213,9 +213,35 @@ h2{
     gap: 0;
 }
 
+.aside .col{
+    flex-basis: calc(100% /2);
+}
 
+/* Sezione try */
+/*
 .free-try{
-    width: 100%;
     height: 200px;
     background-color: lightskyblue;
+}
+
+.free-try  .col{
+    flex-basis: calc(100% / 2);
+}
+*/
+/* Sezione q&a */
+
+.question{
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    font-size: 35px;
+    margin-top: 80px;
+}
+
+.question-3 li{
+    padding: 30px 0;
+    border-bottom: 1px solid black;
+}
+
+i{
+    padding-left: 220px;
 }
