@@ -245,3 +245,19 @@ h2{
 i{
     padding-left: 220px;
 }
+
+/* Footer */
+
+footer{
+    margin-top: 100px;
+    background-color: black;
+    height: 550px;
+}
+
+.col-footer{
+    flex-basis: calc(100% / 5);
+    margin-top: 80px;
+
+    border: 1px dashed white;
+    min-height: 100px;
+}
