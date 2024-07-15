@@ -84,10 +84,12 @@ h4{
     height: 80px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
-    width: 100%;
     background-color: white;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 
@@ -98,12 +100,28 @@ h4{
 .navbar ul{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .navbar-right ul{
     justify-content: flex-end;
 }
 
+.navbar li{
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid transparent;
+}
+   
+.navbar li:hover{
+    border-bottom: 1px solid black;
+}
+
+.position{
+    position: relative;
+    top: 25px;
+    left: 0;
+}
 /* Jumbotron */
 
 .bg{
@@ -199,6 +217,7 @@ h4{
 .down-col{
     padding: 30px;
 }
+
 
 .down-col li{
     font-size: 12px;
