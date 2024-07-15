@@ -297,6 +297,7 @@ h4{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 15px solid transparent;
 }
 .items-col img{
     width: 50%;
@@ -362,6 +363,12 @@ h4{
 .aside .col{
     flex-basis: calc(100vw / 3);
     height: calc(100vw / 3);
+}
+
+/* Bonus bordi */
+
+.square:hover{
+    border: 15px solid rgba(255, 255, 255, 0.5);
 }
 
 /* Sezione try */
