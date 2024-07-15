@@ -410,10 +410,24 @@ h4{
     border-bottom: 1px solid black;
 }
 
+.question-3 li:hover p{
+    display: block;
+}
 
+.question-3 h6{
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+}
 .question-3 i{
     padding-left: 130px;
 }
+
+.question-3 p{
+    padding-top: 30px;
+    display: none;
+}
+
 
 /* Footer */
 
